@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+		background-color: #f2f2f2;
+		font-family: "Lato";
+		font-weight: 300;
+		font-size: 16px;
+		color: #555;
+		
+		-webkit-font-smoothing: antialiased;
+		-web-overflow-scrolling: touch;
+		
+		margin-top: 10px;
+		
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Raleway";
+		font-weight: 300;
+		color: #333;
+		text-align: center;
+	}
+	
+	p {
+		line-height: 28px;
+		margin-bottom: 5px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+	
+	.centered {
+		text-align: center;
+	}
+	
+	a {
+		color: #f85c37;
+	}
+	
+	a:hover, a:focus {
+		color: #7b7b7b;
+		text-decoration: none;
+		outline: 0;		
+	}
+	
+	hr {
+		display: block;
+		height: 1px;
+		border:0;
+		border-top: 1px solid #ccc;
+		margin: 1em 0;
+		padding:0;
+	}
+	
+	.navbar {
+		font-weight: 800;
+		font-size: 14px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	.navbar-inverse {
+		background: #2d2d2d;
+		border-color: #2d2d2d;
+	}
+	
+	.navbar-inverse .navbar-nav > .active > a {
+		background-color: #ff7878;
+	}
+	
+	.navbar-inverse .navbar-brand {
+		color: #999;
+		font-weight: bolder;
+		font-size: 22px;
+		letter-spacing: 1px;
+	}
+	
+	.button{
+ text-decoration:none; 
+ text-align:center; 
+ padding:4px 3px; 
+ border:none; 
+ -webkit-border-radius:19px;
+ -moz-border-radius:19px; 
+ border-radius: 19px; 
+ font:18px "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+ font-weight:bold; 
+ color:#eaf7f7; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);   
+ -webkit-box-shadow:4px 3px 13px #cee617, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 4px 3px 13px #cee617,  inset 0px 0px 1px #ffffff;  
+ box-shadow:4px 3px 13px #cee617, inset 0px 0px 1px #ffffff;  
+ opacity:0.97; 
+ -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=97); 
+ filter: alpha(opacity=97); 
+ text-shadow: 2px 0px 2px #4417b5; 
+ filter: dropshadow(color=#4417b5, offx=2, offy=0); }
+	
+	
+	
